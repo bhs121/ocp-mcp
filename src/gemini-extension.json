@@ -1,0 +1,12 @@
+{
+  "name": "Ocp",
+  "version": "0.2.0",
+  "mcpServers": {
+    "ocp-mcp": {
+      "command": "npm",
+      "args": ["run", "start:fresh"],
+      "cwd": "${extensionPath}",
+      "timeout": 600000
+    }
+  }
+}
